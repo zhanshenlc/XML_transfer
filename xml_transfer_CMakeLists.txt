@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 3.9)
+project(xml_transfer)
+
+set(CMAKE_CXX_STANDARD 11)
+
+add_executable(xml_transfer main.cpp)
+
+find_package(boost 1.67.0)
+
+include_directories(D:\\Programs\\C++\\lib\\boost_1_67_0)
+
+link_directories(D:\\Programs\\C++\\lib)
